@@ -1,0 +1,5 @@
+<article class="wysiwyg-alert {{decorator}}">
+  {% if title is not empty %}<div class="alert__title"><p><strong>{{title}}</strong></p></div>{% endif %}
+    <div class="alert__desc">{{wysiwyg}}</div>
+  {% if href is not empty %}<div class="alert__link"><a href="{{href}}" class="link-arrow">{{linktext}}</a></div>{% endif %}
+</article>

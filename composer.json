@@ -1,0 +1,6 @@
+{
+  "name": "slattery/ckeditor5_embedded_content_yse",
+  "description": "CK5 embeds",
+  "type": "drupal-custom-module",
+  "license": "GPL-2.0-or-later"
+}
